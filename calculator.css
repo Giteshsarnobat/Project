@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(16, 12, 12);
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+input{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+.add{
+    padding: 10px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+}
+
+.substract{
+    padding: 10px;
+    width: 100px;
+    margin-left: 10px;
+    background-color:greenyellow;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+}
+
+.result{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(194, 46, 76);
+    color: white;
+    border-radius: 10px;
+   
+}
+
+fieldset{
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
